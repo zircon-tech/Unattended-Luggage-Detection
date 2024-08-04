@@ -192,5 +192,6 @@ def get_centroid(box):
 
 
 if __name__ == "__main__":
-    process_video("path_to_video")
+    video_path = "path/to/video.mp4"
+    process_video(video_path)
 
