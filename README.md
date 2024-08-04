@@ -12,6 +12,7 @@ The project is implemented using YOLOv8 object and MiDaS for depth estimation.
 ```bash
 pip install -r requirements.txt
 ```
+3. If you have Nvidia GPU, make sure to install [CUDA](https://developer.nvidia.com/cuda-toolkit-archive) and a supported [Torch](https://pytorch.org/get-started/locally/) version
 
 ## Usage
 Run the `main.py` file to start the application. Make sure to modify the `main.py` file to give it a path to a video to process.
